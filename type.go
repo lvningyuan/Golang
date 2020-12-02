@@ -21,10 +21,6 @@ func (p people) show2(){
 	fmt.Println(p.name)
 }
 
-func testShow(a puiple){
-	fmt.Println(a.people.name)
-	fmt.Println(a.person.name)
-}
 func main(){
 	var s puiple
 	s.person.name ="小明"
